@@ -14,8 +14,8 @@ echo "
         <li>Date_default_timezone</li>
     </ol>
     
-    <p>Nota del documento: 8</p>
+    <p>Nota del documento: 9</p>
     <p>Nota de la explicación del profesor: 9</p>
-    <p>Nota del alumno (Ricardo Paredes Ramos): 7</p>
+    <p>Nota del alumno (Ricardo Paredes Ramos): 10</p>
     <p>Explicación mejoras: Nada que mejorar</p>";
 
