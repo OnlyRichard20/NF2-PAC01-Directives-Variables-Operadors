@@ -1,4 +1,15 @@
 <?php
+session_start();
+$_SESSION['nombre'] = "Ricardo";
+$_SESSION['apellido1'] = "Paredes";
+$_SESSION['apellido2'] = "Ramos";
+$_POST['Usuario'];
+$_POST['Contraseña'];
+$_POST['telefono'];
+setcookie("user", $_SESSION['nombre'], time()+60);
+?>
+
+<?php
 session_unset();
 ?>
 <html>
@@ -23,17 +34,6 @@ session_unset();
  </body>
 </html>
 
-
-<?php
-session_start();
-$_SESSION['nombre'] = "Ricardo";
-$_SESSION['apellido1'] = "Paredes";
-$_SESSION['apellido2'] = "Ramos";
-$_POST['Usuario'];
-$_POST['Contraseña'];
-$_POST['telefono'];
-setcookie("user", $_SESSION['nombre'], time()+60);
-?>
 
 <?php
 $myfavpeli = urlencode("Spiderman");
