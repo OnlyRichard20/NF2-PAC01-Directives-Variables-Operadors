@@ -36,7 +36,7 @@ session_unset();
 
 
 <?php
-$myfavpeli = urlencode("Spiderman");
+$myfavpeli = urlencode("La vida de Pi");
 echo "<a href='secondary.php?favpeli=$myfavpeli'>";
 echo "Clic aquí para ver información sobre mi película favorita!";
 echo "</a>";
